@@ -6,8 +6,6 @@ all the upcoming events.
 
 ![ScreenShot](img/hackathonApp.png)
 ![ScreenShot](img/tab.PNG)
-<img src="https://github.com/DhayanandBaskar/HackathonApp/img/hackathonApp.png" width="256">
-<img src="https://github.com/DhayanandBaskar/HackathonApp/img/tab.PNG" width="256">
 
 ## Integrated Android Components: ##
     *Firebase
