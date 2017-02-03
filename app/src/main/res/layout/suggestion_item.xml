@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorBackgrount"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorCard"
+        android:layout_margin="@dimen/card_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/suggestion_card_padding">
+
+            <TextView
+                android:text="@string/suggestion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textview_suggestion"
+                android:textSize="@dimen/suggestion_card_text_size"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:text="@string/suggestion_category"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textview_suggestion_catagory"
+                android:textSize="@dimen/suggestion_card_category_text_size"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/suggestion_view_height"
+        android:background="@android:color/white"/>
+
+</LinearLayout>

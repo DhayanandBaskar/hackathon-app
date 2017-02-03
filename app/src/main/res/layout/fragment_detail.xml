@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/fragment_detail_root_view_margin_top">
+
+    <android.support.v4.widget.NestedScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgrount"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/detail_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/detail_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="@color/colorCard"
+                android:padding="@dimen/fragment_detail_name_padding"
+                android:textSize="@dimen/fragment_detail_name_text_size"
+                android:text="@string/name"
+                android:textColor="@color/cardview_light_background"
+                android:textIsSelectable="false" />
+
+            <ImageView
+                android:id="@+id/detail_image"
+                android:layout_width="@dimen/fragment_detail_image_width_height"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/fragment_detail_image_width_height"
+                android:layout_margin="@dimen/fragment_detail_image_margin"
+                android:contentDescription="@string/thumbnail"
+                android:src="@drawable/topper" />
+
+            <TextView
+                android:id="@+id/detail_exp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="@color/colorCard"
+                android:padding="@dimen/fragment_detail_general_padding"
+                android:textSize="@dimen/fragment_detail_general_text_size"
+                android:text="@string/exp"
+                android:textColor="@color/cardview_light_background"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/detail_ctc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="@color/colorCard"
+                android:padding="@dimen/fragment_detail_general_padding"
+                android:textSize="@dimen/fragment_detail_general_text_size"
+                android:text="@string/ctc"
+                android:textColor="@color/cardview_light_background"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/detail_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="@color/colorCard"
+                android:padding="@dimen/fragment_detail_general_padding"
+                android:textSize="@dimen/fragment_detail_general_text_size"
+                android:text="@string/category_example"
+                android:textColor="@color/cardview_light_background"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/detail_site"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="@color/colorCard"
+                android:padding="@dimen/fragment_detail_general_padding"
+                android:textSize="@dimen/fragment_detail_general_text_size"
+                android:text="@string/site_example"
+                android:textColor="@color/cardview_light_background"
+                android:textIsSelectable="false" />
+
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/card_margin"
+        android:layout_marginLeft="@dimen/card_margin"
+        android:layout_marginRight="@dimen/card_margin">
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/text_padding"
+            android:text="@string/descriptionDetail"
+            android:background="@color/colorCard"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="@dimen/fragment_detail_general_text_size" />
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/bookmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/favourite_margin"
+        app:backgroundTint="@color/colorPrimary"
+        android:clickable="true"
+        app:layout_anchor="@id/detail_exp"
+        app:layout_anchorGravity="top|right|end"
+        android:contentDescription="@string/bookmark_description"/>
+
+</android.support.design.widget.CoordinatorLayout>
+
