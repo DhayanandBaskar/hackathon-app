@@ -4,8 +4,8 @@ place. Its helps search for hackathons, have a detail view about it and also let
 them. You can share the upcoming hackathon event to your friends. You can have a widget for
 all the upcoming events.
 
-<img src="https://github.com/DhayanandBaskar/HackathonApp/app images/hackathon App.png" width="800">
-<img src="https://github.com/DhayanandBaskar/HackathonApp/app images/tab.PNG" width="256">
+<img src="https://github.com/DhayanandBaskar/HackathonApp/appImages/hackathonApp.png">
+<img src="https://github.com/DhayanandBaskar/HackathonApp/appImages/tab.PNG">
 
 ## Integrated Android Components: ##
 *Firebase
