@@ -8,24 +8,24 @@ all the upcoming events.
 <img src="https://github.com/DhayanandBaskar/HackathonApp/img/tab.PNG">
 
 ## Integrated Android Components: ##
-*Firebase
-*Content provider
-*Loaders
-*Sync Adapter
-*Widget
-*Navigation View
-*View Holder
-*View pager
-*Item choice Manager
-*Custom Suggestion (Search view)
-*Voice Search.
+ Markup : *Firebase
+          *Content provider
+          *Loaders
+          *Sync Adapter
+          *Widget
+          *Navigation View
+          *View Holder
+          *View pager
+          *Item choice Manager
+          *Custom Suggestion (Search view)
+          *Voice Search.
 
-Features
-*Sort event into tabs based on category and bookmark
-*Bookmark events
-*Detail Widget for the home screen
-*Custom search suggestions
-*User Login
-*Share events with friends
-*Works offline even in places where the user can't access internet
+## Features ##
+Markup : *Sort event into tabs based on category and bookmark
+         *Bookmark events
+         *Detail Widget for the home screen
+         *Custom search suggestions
+         *User Login
+         *Share events with friends
+         *Works offline even in places where the user can't access internet
 
